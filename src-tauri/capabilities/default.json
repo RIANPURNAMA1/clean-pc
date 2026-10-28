@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Izin minimum: event, dan dialog pilih folder (hanya baca path). Tidak ada akses filesystem dari frontend.",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:allow-open"]
+}

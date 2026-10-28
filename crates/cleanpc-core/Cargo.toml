@@ -1,0 +1,12 @@
+[package]
+name = "cleanpc-core"
+version = "0.1.0"
+edition = "2021"
+description = "Logika inti CleanPC: kebijakan keamanan path, scanner, cleaner, analyzer (tanpa dependensi Tauri agar mudah diuji)"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+tempfile = "3"
